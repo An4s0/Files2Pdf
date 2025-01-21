@@ -1,16 +1,32 @@
 {
   "name": "files2pdf",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "description": "Convert files to PDF.",
   "main": "index.js",
   "bin": {
     "files2pdf": "./bin/cli.js"
   },
-  "scripts": {},
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "pdf",
+    "converter",
+    "ppt",
+    "doc",
+    "libreoffice"
+  ],
+  "author": {
+    "name": "Anas Almutary",
+    "url": "https://ianas.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/An4s0/files2pdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/An4s0/files2pdf/issues"
+  },
+  "homepage": "https://github.com/An4s0/files2pdf#readme",
   "license": "ISC",
   "type": "commonjs",
-  "description": "",
   "dependencies": {
     "libreoffice-convert": "^1.6.0"
   }
