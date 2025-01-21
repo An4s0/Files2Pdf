@@ -1,0 +1,17 @@
+{
+  "name": "files2pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "files2pdf": "./bin/cli.js"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "libreoffice-convert": "^1.6.0"
+  }
+}
